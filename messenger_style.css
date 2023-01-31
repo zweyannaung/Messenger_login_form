@@ -1,0 +1,362 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+.Top_Menu{
+    max-width: 1195px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.Top_Menu{
+    background-color: white;
+    position: sticky;
+    top: 0%;
+    opacity: 0.97;
+    z-index: 1;
+}
+
+.Messenger_logo{
+    display: flex;
+    display: inline-block;
+    cursor: pointer;
+}
+   
+.Messenger_logo2{
+    width: 40px;
+    height: 40px;
+}
+
+.Top_MenuItem{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.Menu{
+    font-size: 15px;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: 600;
+    font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+}
+
+.Menu:link,:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.Menu:hover{
+    color:black;
+    border-bottom: 4px solid #0084ff;
+    margin-bottom: 3px;
+}
+.Menu:active{
+    color:black;
+    border-bottom: 4px solid #0084ff;
+    margin-bottom: 3px;
+}
+
+.Menu_Bar{
+    display: none;
+}
+
+.Main_box{
+    max-width: 1195px;
+    margin: 0 auto;
+}
+
+.Main_Body{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.Body_Left{
+    display:inline-block;
+    width: 50%;
+}
+
+.Body_Left_Inner{
+    width: 70%;
+}
+
+.Header{
+    font-size: 70px;
+    margin-top: -15px;
+    text-align: left;
+    background-image: -webkit-linear-gradient(81.84deg
+    , #0099ff -9.4%, #a033ff 51.57%, #ff5280 84.07%, #ff7061 90.59%);
+    background-clip: text;
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: -4px;
+    font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+}
+
+.Paragraph{
+    font-size: 18px;
+    font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+    opacity: 0.8;
+    margin-bottom: 40px;
+}
+
+.InputElement{
+    font-size: 16px;
+    display: block;
+    margin-bottom: 18px;
+    width: 280px;
+    height: 25px;
+    padding: 8px 16px;
+    background-color:rgba(0, 0, 0, .04);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+}
+
+.ButtomElement{
+    background-color: #0084ff;
+    color: white;
+    height: 40px;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 2px 20px 0;
+    border-radius: 24px;
+    border: #0084ff solid 1px;
+    width: auto;
+    margin-bottom: 21px;
+    margin-top: 20px;
+}
+
+.ForgetPassword{
+    font-size: 13px;
+    font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+    margin-left: 20px;
+    font-weight: 500;
+    opacity: 0.8;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.Checkbox{
+    font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+    margin-bottom: 18px;
+    opacity: 0.8;
+    font-size: 13px;
+}
+
+.Getting_App{
+    display: flex;
+    flex-wrap: wrap;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.App_Store{
+    height: 44px;
+    width: auto;
+    border-radius: 8px;
+}
+
+.Microsoft{
+    border-radius: 8px;
+    height: 44px;
+    width: auto;
+}
+
+.Body_Right{
+    display: inline-block;
+    width: 50%;
+}
+
+.Right_Messsenger_Image{
+    display: inline-block;
+    width: 100%;
+}
+
+.Footer{
+    max-width: 1195px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+
+.Law{
+    display: inline-block;
+    display: flex;
+    padding: 15px 0px;
+    text-align: center;
+    font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+
+}
+
+.Translate{
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.facebook{
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin-left: 10px;
+    font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+    background-image: -webkit-linear-gradient(81.84deg
+    , #0099ff -9.4%, #a033ff 51.57%, #ff5280 84.07%, #ff7061 90.59%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.F_Letter{
+    font-size: 13px;
+    font-weight: bold;
+    opacity: 0.5;
+    font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+}
+
+@media (max-width:1024px){
+    .Top_Menu{
+        max-width: 860px;
+        margin: 0 auto;
+        margin-bottom: 60px;
+    }
+    .Main_Body{
+        max-width: 440px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    .Body_Left{
+        width: 100%;
+    }
+    .Body_Left_Inner{
+        width: 100%;
+    }
+    .Header{
+        font-size: 55px;
+        text-align:center;
+    }
+    .Paragraph{
+        margin-bottom: 70px;
+        text-align: center;
+        margin-top: -20px;
+    }
+    .InputElement{
+        width: 440px;
+    }
+    .Body_Right{
+        width: 100%;
+        margin-top: 60px;
+        margin-bottom: 100px;
+    }
+    .Footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 440px;
+        margin: 0 auto;
+        width: 100%;
+        font-size: 12px;
+        height: 250px;
+    }
+    .M{
+        margin-top: -20px;
+    }
+    .F{
+        margin-bottom: 50px;
+    }
+}
+@media (max-width:767px){
+    .Menu_Bar{
+        display: block;
+    }
+    .Top_MenuItem{
+        display: none;
+    }
+    .Top_Menu{
+        max-width: 500px;
+        margin: 0 auto;
+        justify-content: space-between;
+        margin-bottom: 80px;
+    }
+    .Body_Left{
+        width: 100%;
+    }
+    .InputElement{
+        width: 350px;
+    }
+    .Body_Right{
+        width: 100%;
+        text-align: center;
+    }
+    .Right_Messsenger_Image{
+        width: 120%;
+        text-align: center;
+        margin: 0 -40px;
+        overflow: hidden;
+    }
+    .Footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 600px;
+        margin: 0 auto;
+        width: 100%;
+        font-size: 12px;
+        height: 250px;
+    }
+    .M{
+        margin-top: -20px;
+    }
+    .F{
+        margin-bottom: 50px;
+    }
+}
+@media(max-width:360px){
+    .Top_Menu{
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+    .Body_Left{
+        width: 100%;
+        text-align: center;
+    }
+    .Body_Left_Inner{
+        width: 90%;
+    }
+    .InputElement{
+        width: 200px;
+    }
+    .Body_Right{
+        width: 100%;
+        text-align: center;
+    }
+    .Right_Messsenger_Image{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .Footer{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        font-size: 12px;
+        height: 250px;
+    }
+}
